@@ -1,0 +1,231 @@
+create table users
+(user_id varchar2(5),
+user_name varchar2(25),
+user_street varchar2(30),
+user_city varchar2(20),
+user_state char(2),
+user_zip varchar2(9),
+user_phone varchar(10),
+user_email varchar(40),
+user_pw varchar(20),
+constraint user_pk primary key (user_id));
+INSERT INTO users (user_id,user_name,user_street,user_city,user_state,user_zip,user_phone,user_email,user_pw) VALUES ('00001','Warren Casey','2814 Volutpat Ave','Belmont','MA','02330','0462714005','metuser@aol.com','CWU38WEE0IV');
+INSERT INTO users (user_id,user_name,user_street,user_city,user_state,user_zip,user_phone,user_email,user_pw) VALUES ('00002','Abraham Henderson','826 Mauris Rd','Plymouth','MA','01563','4060580383','quam.curabitur@bu.edu','NLY08JBR8RN');
+INSERT INTO users (user_id,user_name,user_street,user_city,user_state,user_zip,user_phone,user_email,user_pw) VALUES ('00003','Tiger Fitzgerald','4820 Suspendisse Ave','Birmingham','AL','11805','6372327046','montes.nascetur@gmail.com','YXK36EGJ6QY');
+INSERT INTO users (user_id,user_name,user_street,user_city,user_state,user_zip,user_phone,user_email,user_pw) VALUES ('00004','Allistair Orti','7228 Ullamcorper St','Arlington','MA','02486','7318037089','facilisis@gmail.com','UCY35YBC5FN');
+INSERT INTO users (user_id,user_name,user_street,user_city,user_state,user_zip,user_phone,user_email,user_pw) VALUES ('00005','Basil Bullock','6870 Idaho Ave','Allston','MA','02134','7459110093','quis.pede@yahoo.net','BKT56WHA3NG');
+INSERT INTO users (user_id,user_name,user_street,user_city,user_state,user_zip,user_phone,user_email,user_pw) VALUES ('00006','Laura Kocubinski','1 Banana Ave','Banana Town','MA','12345','0123456789','eu.tellus.eu@ligula.edu','CRW82LYJ7VA');
+INSERT INTO users (user_id,user_name,user_street,user_city,user_state,user_zip,user_phone,user_email,user_pw) VALUES ('00007','Talon Austin','9127 Erat Ave','"Patalillo','CA','15789','2104288618','tristique.pharetra@ligula.net','DSB99KAL8AU');
+INSERT INTO users (user_id,user_name,user_street,user_city,user_state,user_zip,user_phone,user_email,user_pw) VALUES ('00008','Solomon Mccullough','6106 Et Rd','Norfolk','VA','910902','8791767147','scelerisque@sit.ca','GIK99RLY6PH');
+INSERT INTO users (user_id,user_name,user_street,user_city,user_state,user_zip,user_phone,user_email,user_pw) VALUES ('00009','John French','6618 Accumsan St','Castello','MA','57658','8330841102','nunc.ac.mattis@enim.com','YYV80VPH2AA');
+INSERT INTO users (user_id,user_name,user_street,user_city,user_state,user_zip,user_phone,user_email,user_pw) VALUES ('00010','Kadeem Miles','816 Quis St','Upplands','MI','07667','2727491646','sagittis.placerat@sed.com','VVR37YPO6QU');
+INSERT INTO users (user_id,user_name,user_street,user_city,user_state,user_zip,user_phone,user_email,user_pw) VALUES ('00011','Zeus Leblanc','9283 Iaculis Road','Lagos','LA','05840','0202956951','nisl.elementum@unec.com"','PGD70YFL0NS');
+INSERT INTO users (user_id,user_name,user_street,user_city,user_state,user_zip,user_phone,user_email,user_pw) VALUES ('00012','Honorato Russell','9273 Urna St','Kaiserslauter','RI','90915','8594147810','blandit.consequat@rutr.edu','VXR46DFJ1CS');
+INSERT INTO users (user_id,user_name,user_street,user_city,user_state,user_zip,user_phone,user_email,user_pw) VALUES ('00013','Lila Patel','123 Elm Street','Springfield','IL','62701','5551234567','lila@example.com','PWD123');
+INSERT INTO users (user_id,user_name,user_street,user_city,user_state,user_zip,user_phone,user_email,user_pw) VALUES ('00014','Michael Johnson','456 Oak Avenue','Oakland','CA','94601','5557654321','mike@example.com','ABC456');
+INSERT INTO users (user_id,user_name,user_street,user_city,user_state,user_zip,user_phone,user_email,user_pw) VALUES ('00015','Emily Smith','789 Pine Road','Portland','OR','97201','5559876543','emily@example.com','XYZ789');
+INSERT INTO users (user_id,user_name,user_street,user_city,user_state,user_zip,user_phone,user_email,user_pw) VALUES ('00016','David Williams','1010 Maple Boulevard','Atlanta','GA','30301','5552345678','david@example.com','PWD987');
+INSERT INTO users (user_id,user_name,user_street,user_city,user_state,user_zip,user_phone,user_email,user_pw) VALUES ('00017','Sophia Brown','1313 Birch Lane','Boston','MA','02101','5558765432','sophia@example.com','ABC321');
+INSERT INTO users (user_id,user_name,user_street,user_city,user_state,user_zip,user_phone,user_email,user_pw) VALUES ('00018','James Lee','1515 Cedar Street','Chicago','IL','60601','5553456789','james@example.com','XYZ654');
+INSERT INTO users (user_id,user_name,user_street,user_city,user_state,user_zip,user_phone,user_email,user_pw) VALUES ('00019','Olivia Garcia','1717 Redwood Avenue','Raleigh','NC','27601','5556543210','olivia@example.com','PWD654');
+INSERT INTO users (user_id,user_name,user_street,user_city,user_state,user_zip,user_phone,user_email,user_pw) VALUES ('00020','William Rodriguez','1919 Walnut Drive','Washington','DC','20001','5559876543','william@example.com','ABC987');
+INSERT INTO users (user_id,user_name,user_street,user_city,user_state,user_zip,user_phone,user_email,user_pw) VALUES ('00021','Amelia Martinez','2121 Oak Street','Orlando','FL','32801','5551234567','amelia@example.com','XYZ321');
+INSERT INTO users (user_id,user_name,user_street,user_city,user_state,user_zip,user_phone,user_email,user_pw) VALUES ('00022','Benjamin Hernandez','2323 Pine Avenue','Dallas','TX','75201','5558765432','benjamin@example.com','PWD321');
+INSERT INTO users (user_id,user_name,user_street,user_city,user_state,user_zip,user_phone,user_email,user_pw) VALUES ('00023','Mia Lopez','2525 Maple Road','Seattle','WA','98101','5552345678','mia@example.com','ABC654');
+INSERT INTO users (user_id,user_name,user_street,user_city,user_state,user_zip,user_phone,user_email,user_pw) VALUES ('00024','Ethan Gonzalez','2727 Cedar Lane','San Francisco','CA','94101','5557654321','ethan@example.com','XYZ321');
+INSERT INTO users (user_id,user_name,user_street,user_city,user_state,user_zip,user_phone,user_email,user_pw) VALUES ('00025','Isabella Perez','2929 Redwood Drive','Houston','TX','77001','5559876543','isabella@example.com','PWD789');
+INSERT INTO users (user_id,user_name,user_street,user_city,user_state,user_zip,user_phone,user_email,user_pw) VALUES ('00026','Alexander Wilson','3131 Walnut Avenue','Philadelphia','PA','19101','5551234567','alexander@example.com','ABC123');
+INSERT INTO users (user_id,user_name,user_street,user_city,user_state,user_zip,user_phone,user_email,user_pw) VALUES ('00027','Charlotte Moore','3333 Oak Street','Miami','FL','33101','5558765432','charlotte@example.com','XYZ456');
+INSERT INTO users (user_id,user_name,user_street,user_city,user_state,user_zip,user_phone,user_email,user_pw) VALUES ('00028','Jacob Taylor','3535 Pine Road','Phoenix','AZ','85001','5552345678','jacob@example.com','PWD456');
+INSERT INTO users (user_id,user_name,user_street,user_city,user_state,user_zip,user_phone,user_email,user_pw) VALUES ('00029','Ava Anderson','3737 Maple Drive','Los Angeles','CA','90001','5557654321','ava@example.com','ABC789');
+INSERT INTO users (user_id,user_name,user_street,user_city,user_state,user_zip,user_phone,user_email,user_pw) VALUES ('00030','Michael Thomas','3939 Cedar Lane','Denver','CO','80201','5559876543','michael@example.com','XYZ987');
+INSERT INTO users (user_id,user_name,user_street,user_city,user_state,user_zip,user_phone,user_email,user_pw) VALUES ('00031','Emma Jackson','4141 Redwood Avenue','Austin','TX','78701','5551234567','emma@example.com','PWD987');
+INSERT INTO users (user_id,user_name,user_street,user_city,user_state,user_zip,user_phone,user_email,user_pw) VALUES ('00032','William White','4343 Walnut Avenue','Nashville','TN','37201','5558765432','william@example.com','ABC321');
+INSERT INTO users (user_id,user_name,user_street,user_city,user_state,user_zip,user_phone,user_email,user_pw) VALUES ('00033','Olivia Harris','4545 Oak Street','San Antonio','TX','78201','5552345678','olivia@example.com','XYZ654');
+INSERT INTO users (user_id,user_name,user_street,user_city,user_state,user_zip,user_phone,user_email,user_pw) VALUES ('00034','James Martin','4747 Pine Road','Las Vegas','NV','89101','5557654321','james@example.com','PWD321');
+INSERT INTO users (user_id,user_name,user_street,user_city,user_state,user_zip,user_phone,user_email,user_pw) VALUES ('00035','Sophia Thompson','4949 Maple Drive','Kansas City','MO','64101','5559876543','sophia@example.com','ABC654');
+INSERT INTO users (user_id,user_name,user_street,user_city,user_state,user_zip,user_phone,user_email,user_pw) VALUES ('00036','Benjamin Garcia','5151 Cedar Lane','Minneapolis','MN','55401','5551234567','benjamin@example.com','XYZ321');
+INSERT INTO users (user_id,user_name,user_street,user_city,user_state,user_zip,user_phone,user_email,user_pw) VALUES ('00037','Emily Rodriguez','5353 Redwood Avenue','Salt Lake City','UT','84101','5558765432','emily@example.com','PWD654');
+INSERT INTO users (user_id,user_name,user_street,user_city,user_state,user_zip,user_phone,user_email,user_pw) VALUES ('00038','Michael Hernandez','5555 Walnut Avenue','Charlotte','NC','28201','5552345678','michael@example.com','ABC987');
+INSERT INTO users (user_id,user_name,user_street,user_city,user_state,user_zip,user_phone,user_email,user_pw) VALUES ('00039','Isabella Martinez','5757 Oak Street','Tampa','FL','33601','5557654321','isabella@example.com','XYZ321');
+INSERT INTO users (user_id,user_name,user_street,user_city,user_state,user_zip,user_phone,user_email,user_pw) VALUES ('00040','Oliver Lopez','5959 Pine Road','Detroit','MI','48201','5559876543','oliver@example.com','PWD789');
+INSERT INTO users (user_id,user_name,user_street,user_city,user_state,user_zip,user_phone,user_email,user_pw) VALUES ('00041','Sophia Gonzalez','6161 Maple Drive','St. Louis','MO','63101','5551234567','sophia@example.com','ABC123');
+INSERT INTO users (user_id,user_name,user_street,user_city,user_state,user_zip,user_phone,user_email,user_pw) VALUES ('00042','Emma Perez','6363 Cedar Lane','Sacramento','CA','95801','5558765432','emma@example.com','XYZ456');
+INSERT INTO users (user_id,user_name,user_street,user_city,user_state,user_zip,user_phone,user_email,user_pw) VALUES ('00043','Alexander Turner','6565 Redwood Avenue','New Orleans','LA','70101','5552345678','alexander@example.com','PWD456');
+INSERT INTO users (user_id,user_name,user_street,user_city,user_state,user_zip,user_phone,user_email,user_pw) VALUES ('00044','Olivia Parker','6767 Walnut Avenue','Indianapolis','IN','46201','5557654321','olivia@example.com','ABC789');
+INSERT INTO users (user_id,user_name,user_street,user_city,user_state,user_zip,user_phone,user_email,user_pw) VALUES ('00045','William Baker','6969 Oak Street','Memphis','TN','38101','5559876543','william@example.com','XYZ987');
+INSERT INTO users (user_id,user_name,user_street,user_city,user_state,user_zip,user_phone,user_email,user_pw) VALUES ('00046','Emma Carter','7171 Pine Road','Louisville','KY','40201','5551234567','emma@example.com','PWD987');
+INSERT INTO users (user_id,user_name,user_street,user_city,user_state,user_zip,user_phone,user_email,user_pw) VALUES ('00047','James Hall','7373 Maple Drive','Milwaukee','WI','53201','5558765432','james@example.com','ABC321');
+INSERT INTO users (user_id,user_name,user_street,user_city,user_state,user_zip,user_phone,user_email,user_pw) VALUES ('00048','Sophia Morris','7575 Cedar Lane','Oklahoma City','OK','73101','5552345678','sophia@example.com','XYZ654');
+INSERT INTO users (user_id,user_name,user_street,user_city,user_state,user_zip,user_phone,user_email,user_pw) VALUES ('00049','Oliver Hill','7777 Redwood Avenue','Albuquerque','NM','87101','5557654321','oliver@example.com','PWD321');
+INSERT INTO users (user_id,user_name,user_street,user_city,user_state,user_zip,user_phone,user_email,user_pw) VALUES ('00050','Isabella Flores','7979 Walnut Avenue','Des Moines','IA','50301','5559876543','isabella@example.com','ABC654');
+select * from users;
+
+create table employees
+(employee_id varchar2(5),
+employee_payrate number(4,2), 
+constraint employee_pk primary key (employee_id),
+constraint employee_fk foreign key (employee_id) references users(user_id));
+
+INSERT INTO employees (employee_id,employee_payrate) VALUES ('00001',15.00);
+INSERT INTO employees (employee_id,employee_payrate) VALUES ('00002',20.00);
+INSERT INTO employees (employee_id,employee_payrate) VALUES ('00003',14.00);
+INSERT INTO employees (employee_id,employee_payrate) VALUES ('00004',22.50);
+INSERT INTO employees (employee_id,employee_payrate) VALUES ('00005',18.50);
+INSERT INTO employees (employee_id,employee_payrate) VALUES ('00006',16.00);
+INSERT INTO employees (employee_id,employee_payrate) VALUES ('00007',21.00);
+INSERT INTO employees (employee_id,employee_payrate) VALUES ('00008',19.00);
+INSERT INTO employees (employee_id,employee_payrate) VALUES ('00009',17.50);
+INSERT INTO employees (employee_id,employee_payrate) VALUES ('00010',23.00);
+
+create table emergency
+(emerg_id varchar2(5),
+emerg_name varchar2(25),
+emerg_street varchar2(30),
+emerg_city varchar2(20),
+emerg_state char(2),
+emerg_zip varchar2(9),
+emerg_phone varchar(10), 
+emerg_email varchar(40),
+constraint emerg_pk primary key (emerg_id));
+
+INSERT INTO emergency (emerg_id,emerg_name,emerg_street,emerg_city,emerg_state,emerg_zip,emerg_phone,emerg_email) VALUES ('00001','Laura Kocubinski','2 Banana Ave','Banana','MA','12345','0123456789','mauris.blandit@aol.com');
+INSERT INTO emergency (emerg_id,emerg_name,emerg_street,emerg_city,emerg_state,emerg_zip,emerg_phone,emerg_email) VALUES ('00002','Seth Moses','457 Adipiscing Ave','Auxerre','WI','82049','4194045624','id@risus.net');
+INSERT INTO emergency (emerg_id,emerg_name,emerg_street,emerg_city,emerg_state,emerg_zip,emerg_phone,emerg_email) VALUES ('00003','Caldwell Mills','2962 Neque St','Hoorn','NB','16796','3130017171','sit@vitae.co.uk');
+INSERT INTO emergency (emerg_id,emerg_name,emerg_street,emerg_city,emerg_state,emerg_zip,emerg_phone,emerg_email) VALUES ('00004','Maxwell Cotton','810 Enim Ave','Whitby','OR','36908','6652800677','donec.nibh@duiin.net');
+INSERT INTO emergency (emerg_id,emerg_name,emerg_street,emerg_city,emerg_state,emerg_zip,emerg_phone,emerg_email) VALUES ('00005','John Marsh','712 Amet Ave','Galway','MI','70326','4653160224','nibh.donec@nulla.edu');
+INSERT INTO emergency (emerg_id,emerg_name,emerg_street,emerg_city,emerg_state,emerg_zip,emerg_phone,emerg_email) VALUES ('00006','Clark Schneider','2287 Nulla Street','Mandurah','WA','44232','1268645605','auctor.nunc@etul.com');
+INSERT INTO emergency (emerg_id,emerg_name,emerg_street,emerg_city,emerg_state,emerg_zip,emerg_phone,emerg_email) VALUES ('00007','Garrett Hubbard','7276 Est Ave','Vierzon','WY','15789','6311762976','malesuada.ut@saol.com');
+INSERT INTO emergency (emerg_id,emerg_name,emerg_street,emerg_city,emerg_state,emerg_zip,emerg_phone,emerg_email) VALUES ('00008','Dexter Barrett','5322 Consectetur Ave','Bergen','NH','98765','7401234567','felis@utnulla.com');
+INSERT INTO emergency (emerg_id,emerg_name,emerg_street,emerg_city,emerg_state,emerg_zip,emerg_phone,emerg_email) VALUES ('00009','Rhea Merritt','2871 Adipiscing Ave','Rotterdam','ZH','45678','9142023045','nascetur@ipsum.edu');
+INSERT INTO emergency (emerg_id,emerg_name,emerg_street,emerg_city,emerg_state,emerg_zip,emerg_phone,emerg_email) VALUES ('00010','Hayley Stout','6296 Nulla Ave','Athens','AT','12345','5819037846','dapibus.quam@est.net');
+INSERT INTO emergency (emerg_id,emerg_name,emerg_street,emerg_city,emerg_state,emerg_zip,emerg_phone,emerg_email) VALUES ('00011','Kylynn Cummings','9830 Eu Ave','Novi','MI','48374','3520157829','erat.vitae@in.ca');
+INSERT INTO emergency (emerg_id,emerg_name,emerg_street,emerg_city,emerg_state,emerg_zip,emerg_phone,emerg_email) VALUES ('00012','Kiara Delacruz','7229 Malesuada Ave','Warrnambool','VIC','3280','4278401563','turpis@risus.ca');
+INSERT INTO emergency (emerg_id,emerg_name,emerg_street,emerg_city,emerg_state,emerg_zip,emerg_phone,emerg_email) VALUES ('00013','Xenos Conway','1879 Libero St','Brussels','BRU','1000','5782913450','turpis@nunc.edu');
+INSERT INTO emergency (emerg_id,emerg_name,emerg_street,emerg_city,emerg_state,emerg_zip,emerg_phone,emerg_email) VALUES ('00014','Indigo Andrews','2454 Ipsum Ave','Kota Kinabalu','SBH','88400','7840912345','augue.ac.ipsum@nunc.com');
+INSERT INTO emergency (emerg_id,emerg_name,emerg_street,emerg_city,emerg_state,emerg_zip,emerg_phone,emerg_email) VALUES ('00015','Merrill Chavez','9309 Et Rd','Teresina','PI','64000-000','7438961203','scelerisque.sed@ornare.com');
+INSERT INTO emergency (emerg_id,emerg_name,emerg_street,emerg_city,emerg_state,emerg_zip,emerg_phone,emerg_email) VALUES ('00016','Uriel Beach','2708 Vestibulum St','Portsmouth','ENG','PO1 3BG','2085416392','luctus.vulputate@faucibusidlibero.org');
+INSERT INTO emergency (emerg_id,emerg_name,emerg_street,emerg_city,emerg_state,emerg_zip,emerg_phone,emerg_email) VALUES ('00017','Jenna Logan','7987 Ipsum St','Llanelli','WLS','SA14 9LT','7385106291','congue.turpis@placerat.com');
+INSERT INTO emergency (emerg_id,emerg_name,emerg_street,emerg_city,emerg_state,emerg_zip,emerg_phone,emerg_email) VALUES ('00018','Alma Oneil','1028 Donec Rd','München','BY','80331','1963785402','odio@lorem.edu');
+INSERT INTO emergency (emerg_id,emerg_name,emerg_street,emerg_city,emerg_state,emerg_zip,emerg_phone,emerg_email) VALUES ('00019','Beck Velez','7870 Ipsum St','Santiago','RM','8320000','3120945876','eget@velarcu.net');
+INSERT INTO emergency (emerg_id,emerg_name,emerg_street,emerg_city,emerg_state,emerg_zip,emerg_phone,emerg_email) VALUES ('00020','Illiana Howe','4985 Adipiscing St','Adelaide','SA','5000','7824901875','mauris.sit.amet@placerat.com');
+INSERT INTO emergency (emerg_id,emerg_name,emerg_street,emerg_city,emerg_state,emerg_zip,emerg_phone,emerg_email) VALUES ('00021','Shelby Hood','3532 Dui St','Boulogne-Billancourt','IDF','92100','7812490365','posuere@odio.edu');
+INSERT INTO emergency (emerg_id,emerg_name,emerg_street,emerg_city,emerg_state,emerg_zip,emerg_phone,emerg_email) VALUES ('00022','Herman Mcneil','7820 Vitae St','Uxbridge','ENG','UB8 1DS','9082175043','justo@enim.ca');
+INSERT INTO emergency (emerg_id,emerg_name,emerg_street,emerg_city,emerg_state,emerg_zip,emerg_phone,emerg_email) VALUES ('00023','Zeph Hartman','9678 Dui Rd','Chester','ENG','CH1 4BJ','8576302194','ultrices@at.net');
+INSERT INTO emergency (emerg_id,emerg_name,emerg_street,emerg_city,emerg_state,emerg_zip,emerg_phone,emerg_email) VALUES ('00024','Gage Hays','5078 Eget St','Piracicaba','SP','13400-911','4190853612','vestibulum@sit.com');
+INSERT INTO emergency (emerg_id,emerg_name,emerg_street,emerg_city,emerg_state,emerg_zip,emerg_phone,emerg_email) VALUES ('00025','Nita Carlson','3881 Turpis St','Oudergem','BRU','1160','6720918352','sodales.elit@nunc.org');
+INSERT INTO emergency (emerg_id,emerg_name,emerg_street,emerg_city,emerg_state,emerg_zip,emerg_phone,emerg_email) VALUES ('00026','Micah Ortiz','8395 Adipiscing Rd','Annecy','ARA','74000','7410938752','massa.lobortis@id.com');
+INSERT INTO emergency (emerg_id,emerg_name,emerg_street,emerg_city,emerg_state,emerg_zip,emerg_phone,emerg_email) VALUES ('00027','Simon Goff','5439 Justo Rd','Montpellier','OCC','34000','9763142890','vel.turpis@euismod.co.uk');
+INSERT INTO emergency (emerg_id,emerg_name,emerg_street,emerg_city,emerg_state,emerg_zip,emerg_phone,emerg_email) VALUES ('00028','Brody Freeman','7323 Dolor St','Rochester','ENG','ME1 1DH','8941760325','consectetuer.mauris@dapibusid.com');
+INSERT INTO emergency (emerg_id,emerg_name,emerg_street,emerg_city,emerg_state,emerg_zip,emerg_phone,emerg_email) VALUES ('00029','Tallulah Pierce','7088 Ut Rd','Lausanne','VD','1007','1470853962','mauris.magna.duis@vulputatelacus.com');
+INSERT INTO emergency (emerg_id,emerg_name,emerg_street,emerg_city,emerg_state,emerg_zip,emerg_phone,emerg_email) VALUES ('00030','Hadassah Boone','2218 Vel Rd','Zaventem','BRU','1930','6487051392','tempus.non@Suspendisse.co.uk');
+INSERT INTO emergency (emerg_id,emerg_name,emerg_street,emerg_city,emerg_state,emerg_zip,emerg_phone,emerg_email) VALUES ('00031','Sylvia Reeves','8956 Tellus St','Montreux','VD','1820','1278905432','aliquam.eros.turpis@aliquam.com');
+INSERT INTO emergency (emerg_id,emerg_name,emerg_street,emerg_city,emerg_state,emerg_zip,emerg_phone,emerg_email) VALUES ('00032','Tanek Rodriguez','9452 Cursus Ave','Rennes','BRE','35000','9584017326','magna@nunc.org');
+INSERT INTO emergency (emerg_id,emerg_name,emerg_street,emerg_city,emerg_state,emerg_zip,emerg_phone,emerg_email) VALUES ('00033','Vincent Webb','8483 Et Rd','Issy-les-Moulineaux','IDF','92130','6284309175','pede.ultrices.a@quis.co.uk');
+INSERT INTO emergency (emerg_id,emerg_name,emerg_street,emerg_city,emerg_state,emerg_zip,emerg_phone,emerg_email) VALUES ('00034','Deirdre Mcknight','9155 At Rd','Marseille','OCC','13000','8963142075','vestibulum.accumsan.neque@lorem.ca');
+INSERT INTO emergency (emerg_id,emerg_name,emerg_street,emerg_city,emerg_state,emerg_zip,emerg_phone,emerg_email) VALUES ('00035','Alexandra Mcleod','4359 Auctor St','Arnhem','GE','6823 LH','7539046821','tincidunt@ligula.co.uk');
+INSERT INTO emergency (emerg_id,emerg_name,emerg_street,emerg_city,emerg_state,emerg_zip,emerg_phone,emerg_email) VALUES ('00036','Amethyst Johnston','3756 Enim Rd','Angra do Heroísmo','RAC','9700-108','2194508763','magna@ornare.net');
+INSERT INTO emergency (emerg_id,emerg_name,emerg_street,emerg_city,emerg_state,emerg_zip,emerg_phone,emerg_email) VALUES ('00037','Ronan Cooke','2793 Nulla Rd','Leiden','ZH','2300 AA','8931625407','mollis@metus.org');
+INSERT INTO emergency (emerg_id,emerg_name,emerg_street,emerg_city,emerg_state,emerg_zip,emerg_phone,emerg_email) VALUES ('00038','Blossom English','1084 Non St','Toulouse','OCC','31000','8263074951','euismod@ultricesmauris.org');
+INSERT INTO emergency (emerg_id,emerg_name,emerg_street,emerg_city,emerg_state,emerg_zip,emerg_phone,emerg_email) VALUES ('00039','Caldwell Perry','5958 Suspendisse Ave','Vitória','ES','29000-000','6487135092','magna@vel.com');
+INSERT INTO emergency (emerg_id,emerg_name,emerg_street,emerg_city,emerg_state,emerg_zip,emerg_phone,emerg_email) VALUES ('00040','Chancellor Moore','9438 Nulla Ave','Makurdi','BN','980261','1683709254','magna.sed@quis.ca');
+INSERT INTO emergency (emerg_id,emerg_name,emerg_street,emerg_city,emerg_state,emerg_zip,emerg_phone,emerg_email) VALUES ('00041','Hannah Rice','7458 Nullam Rd','Majadahonda','M','28220','9063712459','luctus.lobortis@Sed.com');
+INSERT INTO emergency (emerg_id,emerg_name,emerg_street,emerg_city,emerg_state,emerg_zip,emerg_phone,emerg_email) VALUES ('00042','Brynne Rivera','1112 Odio St','Foligno','UMB','06034','9763480523','non.massa.non@ametrisus.co.uk');
+INSERT INTO emergency (emerg_id,emerg_name,emerg_street,emerg_city,emerg_state,emerg_zip,emerg_phone,emerg_email) VALUES ('00043','Nigel Gaines','8057 Massa St','Birmingham','ENG','B3 2PB','6953781024','diam.vel@id.com');
+INSERT INTO emergency (emerg_id,emerg_name,emerg_street,emerg_city,emerg_state,emerg_zip,emerg_phone,emerg_email) VALUES ('00044','Ignatius Riggs','3617 Risus St','Aulnay-sous-Bois','IDF','93600','7219843560','amet.risus@sem.edu');
+INSERT INTO emergency (emerg_id,emerg_name,emerg_street,emerg_city,emerg_state,emerg_zip,emerg_phone,emerg_email) VALUES ('00045','Marsden Larson','5247 Curabitur St','Rochester','NY','14606','7509134826','felis.ullamcorper.viverra@Sed.com');
+INSERT INTO emergency (emerg_id,emerg_name,emerg_street,emerg_city,emerg_state,emerg_zip,emerg_phone,emerg_email) VALUES ('00046','Ivy Reyes','1816 Etiam St','Osasco','SP','06140-180','3526874019','egestas@risus.ca');
+INSERT INTO emergency (emerg_id,emerg_name,emerg_street,emerg_city,emerg_state,emerg_zip,emerg_phone,emerg_email) VALUES ('00047','Isaiah Davidson','3587 Nec Rd','Santa Marta','MAG','470001','7850349612','risus@neque.ca');
+INSERT INTO emergency (emerg_id,emerg_name,emerg_street,emerg_city,emerg_state,emerg_zip,emerg_phone,emerg_email) VALUES ('00048','Amber Stephenson','2737 Nunc Rd','Gurgaon','HR','122002','9325760419','urna@nulla.com');
+INSERT INTO emergency (emerg_id,emerg_name,emerg_street,emerg_city,emerg_state,emerg_zip,emerg_phone,emerg_email) VALUES ('00049','Rosalyn Golden','6603 Et St','Chichester','ENG','PO19 1UD','7351892406','sociis.natoque.penatibus@ipsum.edu');
+INSERT INTO emergency (emerg_id,emerg_name,emerg_street,emerg_city,emerg_state,emerg_zip,emerg_phone,emerg_email) VALUES ('00050','Lara Nicholson','4063 Et Rd','Mandal','DL','110018','9158723045','mauris.morbi@elementumlorem.com');
+
+
+create table clients
+(client_id varchar2(5),
+emerg_id varchar2(5),
+constraint client_pk primary key (client_id),
+constraint client_fk1 foreign key (client_id) references users(user_id),
+constraint client_fk2 foreign key (emerg_id) references emergency(emerg_id));
+
+INSERT INTO clients (client_id,emerg_id) VALUES ('00011','00006');
+INSERT INTO clients (client_id,emerg_id) VALUES ('00012','00007');
+INSERT INTO clients (client_id,emerg_id) VALUES ('00013','00008');
+INSERT INTO clients (client_id,emerg_id) VALUES ('00014','00009');
+INSERT INTO clients (client_id,emerg_id) VALUES ('00015','00010');
+INSERT INTO clients (client_id,emerg_id) VALUES ('00016','00011');
+INSERT INTO clients (client_id,emerg_id) VALUES ('00017','00012');
+INSERT INTO clients (client_id,emerg_id) VALUES ('00018','00013');
+INSERT INTO clients (client_id,emerg_id) VALUES ('00019','00014');
+INSERT INTO clients (client_id,emerg_id) VALUES ('00020','00015');
+INSERT INTO clients (client_id,emerg_id) VALUES ('00021','00016');
+INSERT INTO clients (client_id,emerg_id) VALUES ('00022','00017');
+INSERT INTO clients (client_id,emerg_id) VALUES ('00023','00018');
+INSERT INTO clients (client_id,emerg_id) VALUES ('00024','00019');
+INSERT INTO clients (client_id,emerg_id) VALUES ('00025','00020');
+INSERT INTO clients (client_id,emerg_id) VALUES ('00026','00021');
+INSERT INTO clients (client_id,emerg_id) VALUES ('00027','00022');
+INSERT INTO clients (client_id,emerg_id) VALUES ('00028','00023');
+INSERT INTO clients (client_id,emerg_id) VALUES ('00029','00024');
+INSERT INTO clients (client_id,emerg_id) VALUES ('00030','00025');
+INSERT INTO clients (client_id,emerg_id) VALUES ('00031','00026');
+INSERT INTO clients (client_id,emerg_id) VALUES ('00032','00027');
+INSERT INTO clients (client_id,emerg_id) VALUES ('00033','00028');
+INSERT INTO clients (client_id,emerg_id) VALUES ('00034','00029');
+INSERT INTO clients (client_id,emerg_id) VALUES ('00035','00030');
+INSERT INTO clients (client_id,emerg_id) VALUES ('00036','00031');
+INSERT INTO clients (client_id,emerg_id) VALUES ('00037','00032');
+INSERT INTO clients (client_id,emerg_id) VALUES ('00038','00033');
+INSERT INTO clients (client_id,emerg_id) VALUES ('00039','00034');
+INSERT INTO clients (client_id,emerg_id) VALUES ('00040','00035');
+INSERT INTO clients (client_id,emerg_id) VALUES ('00041','00036');
+INSERT INTO clients (client_id,emerg_id) VALUES ('00042','00037');
+INSERT INTO clients (client_id,emerg_id) VALUES ('00043','00038');
+INSERT INTO clients (client_id,emerg_id) VALUES ('00044','00039');
+INSERT INTO clients (client_id,emerg_id) VALUES ('00045','00040');
+INSERT INTO clients (client_id,emerg_id) VALUES ('00046','00041');
+INSERT INTO clients (client_id,emerg_id) VALUES ('00047','00042');
+INSERT INTO clients (client_id,emerg_id) VALUES ('00048','00043');
+INSERT INTO clients (client_id,emerg_id) VALUES ('00049','00044');
+INSERT INTO clients (client_id,emerg_id) VALUES ('00050','00045');
+
+
+create table dogs
+(dog_id varchar2(5),
+dog_name varchar2(25),
+dog_breed varchar2(25),
+dog_color varchar(25),
+dog_weight number(3,1),
+dog_dob date,
+constraint dog_pk primary key (dog_id));
+
+INSERT INTO dogs (dog_id,dog_name,dog_breed,dog_color,dog_weight,dog_dob) VALUES ('00001','Tink','Poodle','Black',13.0,to_date('01-NOV-17','DD-MON-RR'));
+INSERT INTO dogs (dog_id,dog_name,dog_breed,dog_color,dog_weight,dog_dob) VALUES ('00002','Fido','Pug','Tan',15.0,to_date('01-JAN-14','DD-MON-RR'));
+INSERT INTO dogs (dog_id,dog_name,dog_breed,dog_color,dog_weight,dog_dob) VALUES ('00003','Stella','Pitbull','White and Black',45.0,to_date('01-JAN-17','DD-MON-RR'));
+INSERT INTO dogs (dog_id,dog_name,dog_breed,dog_color,dog_weight,dog_dob) VALUES ('00004','Coco','Chihuahua Mix','Brown',40.0,to_date('01-JAN-16','DD-MON-RR'));
+INSERT INTO dogs (dog_id,dog_name,dog_breed,dog_color,dog_weight,dog_dob) VALUES ('00005','Brady','Golden Doodle','Tan',25.0,to_date('01-SEP-18','DD-MON-RR'));
+INSERT INTO dogs (dog_id,dog_name,dog_breed,dog_color,dog_weight,dog_dob) VALUES ('00006','Spot','Beagle','Tan',32.0,to_date('01-JAN-19','DD-MON-RR'));
+INSERT INTO dogs (dog_id,dog_name,dog_breed,dog_color,dog_weight,dog_dob) VALUES ('00007','Bear','Golden Retriever','Tan',45.0,to_date('01-JUN-15','DD-MON-RR'));
+INSERT INTO dogs (dog_id,dog_name,dog_breed,dog_color,dog_weight,dog_dob) VALUES ('00008','Pepper','Terrier','Tan',20.0,to_date('01-JAN-12','DD-MON-RR'));
+INSERT INTO dogs (dog_id,dog_name,dog_breed,dog_color,dog_weight,dog_dob) VALUES ('00009','Oreo','Pomeranian','Black/White',7.0,to_date('01-SEP-13','DD-MON-RR'));
+INSERT INTO dogs (dog_id,dog_name,dog_breed,dog_color,dog_weight,dog_dob) VALUES ('00010','Max','Labrador Retriever','Black',70.0,to_date('01-JAN-15','DD-MON-RR'));
+INSERT INTO dogs (dog_id,dog_name,dog_breed,dog_color,dog_weight,dog_dob) VALUES ('00011','Bella','German Shepherd','Tan/Black',60.0,to_date('01-JAN-16','DD-MON-RR'));
+INSERT INTO dogs (dog_id,dog_name,dog_breed,dog_color,dog_weight,dog_dob) VALUES ('00012','Daisy','Dachshund','Brown',12.0,to_date('01-JAN-18','DD-MON-RR'));
+INSERT INTO dogs (dog_id,dog_name,dog_breed,dog_color,dog_weight,dog_dob) VALUES ('00013','Rocky','Boxer','Brown/White',65.0,to_date('01-JAN-14','DD-MON-RR'));
+INSERT INTO dogs (dog_id,dog_name,dog_breed,dog_color,dog_weight,dog_dob) VALUES ('00014','Luna','Siberian Husky','Grey/White',50.0,to_date('01-JAN-17','DD-MON-RR'));
+INSERT INTO dogs (dog_id,dog_name,dog_breed,dog_color,dog_weight,dog_dob) VALUES ('00015','Charlie','Shih Tzu','White',10.0,to_date('01-JAN-16','DD-MON-RR'));
+INSERT INTO dogs (dog_id,dog_name,dog_breed,dog_color,dog_weight,dog_dob) VALUES ('00016','Sadie','Yorkshire Terrier','Black/Tan',8.0,to_date('01-JAN-19','DD-MON-RR'));
+INSERT INTO dogs (dog_id,dog_name,dog_breed,dog_color,dog_weight,dog_dob) VALUES ('00017','Cooper','Rottweiler','Black/Tan',90.0,to_date('01-JAN-15','DD-MON-RR'));
+INSERT INTO dogs (dog_id,dog_name,dog_breed,dog_color,dog_weight,dog_dob) VALUES ('00018','Molly','Bulldog','Brown/White',55.0,to_date('01-JAN-13','DD-MON-RR'));
+INSERT INTO dogs (dog_id,dog_name,dog_breed,dog_color,dog_weight,dog_dob) VALUES ('00019','Toby','Cocker Spaniel','Black',30.0,to_date('01-JAN-17','DD-MON-RR'));
+INSERT INTO dogs (dog_id,dog_name,dog_breed,dog_color,dog_weight,dog_dob) VALUES ('00020','Lucy','Dalmatian','White/Black',40.0,to_date('01-JAN-16','DD-MON-RR'));
+INSERT INTO dogs (dog_id,dog_name,dog_breed,dog_color,dog_weight,dog_dob) VALUES ('00021','Bailey','Bernese Mountain Dog','Black/Brown/White',100.0,to_date('01-JAN-14','DD-MON-RR'));
+INSERT INTO dogs (dog_id,dog_name,dog_breed,dog_color,dog_weight,dog_dob) VALUES ('00022','Chloe','Great Dane','Black',120.0,to_date('01-JAN-15','DD-MON-RR'));
+INSERT INTO dogs (dog_id,dog_name,dog_breed,dog_color,dog_weight,dog_dob) VALUES ('00023','Maximus','Doberman Pinscher','Black/Brown',80.0,to_date('01-JAN-16','DD-MON-RR'));
+INSERT INTO dogs (dog_id,dog_name,dog_breed,dog_color,dog_weight,dog_dob) VALUES ('00024','Sophie','Border Collie','Black/White',35.0,to_date('01-JAN-18','DD-MON-RR'));
+INSERT INTO dogs (dog_id,dog_name,dog_breed,dog_color,dog_weight,dog_dob) VALUES ('00025','Buddy','Miniature Schnauzer','Grey',20.0,to_date('01-JAN-17','DD-MON-RR'));
+INSERT INTO dogs (dog_id,dog_name,dog_breed,dog_color,dog_weight,dog_dob) VALUES ('00026','Bailey','Pembroke Welsh Corgi','Brown/White',25.0,to_date('01-JAN-18','DD-MON-RR'));
+INSERT INTO dogs (dog_id,dog_name,dog_breed,dog_color,dog_weight,dog_dob) VALUES ('00027','Maggie','Maltese','White',8.0,to_date('01-JAN-19','DD-MON-RR'));
+INSERT INTO dogs (dog_id,dog_name,dog_breed,dog_color,dog_weight,dog_dob) VALUES ('00028','Rocky','Shetland Sheepdog','Tan/White',25.0,to_date('01-JAN-16','DD-MON-RR'));
+INSERT INTO dogs (dog_id,dog_name,dog_breed,dog_color,dog_weight,dog_dob) VALUES ('00029','Lola','Labradoodle','Tan',40.0,to_date('01-JAN-18','DD-MON-RR'));
+INSERT INTO dogs (dog_id,dog_name,dog_breed,dog_color,dog_weight,dog_dob) VALUES ('00030','Duke','Australian Shepherd','Black/Tan',50.0,to_date('01-JAN-16','DD-MON-RR'));
